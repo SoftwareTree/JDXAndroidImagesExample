@@ -1,7 +1,7 @@
 ﻿# JDXAndroidImagesExample
 ### A Simple Android Project Demonstrating Persistence of Binary (e.g., image) Data Using JDXA ORM
 
-Storing some binary (e.g., image or encoded bytes) data in a separate attribute along with 'normal' data in other attributes is an important object modeling requirement for many applications. This project exemplifies how some binary data, as part of an object, can easily be stored and retrieved using SQLite database and JDXA ORM.
+Storing some binary (e.g., image or encoded bytes) data in a separate attribute along with 'normal' data in other attributes of a class is an important object modeling requirement for many applications. This project exemplifies how some binary data, as part of an object, can easily be stored and retrieved using SQLite database and JDXA ORM.
 
 #### Some highlights:  
 *	The object model consists of a Person class that contains a byte[] attribute (named picture) to hold binary (image) data. Some US Presidents are instances of the Person class in this project.
