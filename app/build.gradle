@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+apply plugin: 'maven'
+
+android {
+    compileSdkVersion 8
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.softwaretree.jdxandroidimagesexample"
+        minSdkVersion 8
+        targetSdkVersion 8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+repositories {
+    maven {
+        // url "https://softwaretree.com/maventest"
+        url "file:///C:/users/damodar/maventest"
+    }
+}
+
+dependencies {
+    compile files('libs/JDXAndroid-02.0.jar')
+    compile files('libs/sqldroid.jar')
+}
+

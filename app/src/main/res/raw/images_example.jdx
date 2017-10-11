@@ -1,0 +1,7 @@
+JDX_DATABASE JDX:jdbc:sqldroid:/data/data/com.softwaretree.jdxandroidimagesexample/databases/images_example.db;DATABASE_VERSION=2;USER=sa;PASSWORD=sa;JDX_DBTYPE=SQLITE;
+;
+REM ************************************************************************
+CLASS com.softwaretree.jdxandroidimagesexample.model.Person TABLE Person
+   PRIMARY_KEY name
+   SQLMAP FOR picture NULLABLE
+;

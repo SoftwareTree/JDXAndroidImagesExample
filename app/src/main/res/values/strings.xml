@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, JDXAndroidImagesExampleActivity!</string>
+    <string name="app_name">Images Example</string>
+    <string name="activity_title">JDX Images Example</string>
+    <string name="heading_text">Click the Next button to see the next person</string>
+    <string name="next_text">Next</string>
+</resources>
