@@ -3,7 +3,7 @@
 
 Storing some binary (e.g., image or encoded bytes) data in a separate attribute along with 'normal' data in other attributes is an important object modeling requirement for many applications. This project exemplifies how some binary data, as part of an object, can easily be stored and retrieved using SQLite database and JDXA ORM.
 
-##### Some highlights:  
+#### Some highlights:  
 *	The object model consists of a Person class that contains a byte[] attribute (named picture) to hold binary (image) data. Some US Presidents are instances of the Person class in this project.
 *	The binary data is stored in a 'blob' column of a database table. The other 'normal' data is stored in separate columns.
 *	The declarative mapping specification (in the file .../res/raw/images_example.jdx) is simple, intuitive, non-intrusive, and succinct.  
@@ -13,7 +13,7 @@ Storing some binary (e.g., image or encoded bytes) data in a separate attribute 
 
 ![Persons Pictures](https://softwaretree.com/v1/images/US_Presidents_Blended.jpg) 
 
-##### To run this app in your own setup, please do the following:
+#### To run this app in your own setup, please do the following:
 *	Clone this project on your desktop.
 *	Get the JDXA SDK download instructions from [this link](http://softwaretree.com/v1/products/jdxa/download-jdxa.php).
 *	You may download just the mini version of the SDK.
@@ -25,7 +25,7 @@ JDXA is a simple yet powerful, non-intrusive, flexible, and lightweight Object-R
 
 Adhering to some well thought-out [KISS (Keep It Simple and Straightforward) principles](http://softwaretree.com/v1/KISSPrinciples.html), JDXA boosts developer productivity and reduces maintenance hassles by eliminating endless lines of tedious SQL code.  
 
-##### Some of the powerful and practical features of JDXA include: 
+#### Some of the powerful and practical features of JDXA include: 
 *	Declarative mapping specification between an object model and a relational model is done textually using a simple grammar (no XML complexity). 
 *	Full flexibility in domain object modeling – one-to-one, one-to-many, and many-to-many relationships as well as class-hierarchies supported.
 *	POJO (Plain Old Java Objects) friendly non-intrusive programming model, which does not require you to change your Java classes in any way:   
