@@ -6,7 +6,7 @@ Storing some binary (e.g., image or encoded bytes) data in a separate attribute 
 Some highlights:  
 *	The object model consists of a Person class that contains a byte[] attribute (named picture) to hold binary (image) data. Some US Presidents are instances of the Person class in this project.
 *	The binary data is stored in a 'blob' column of a database table. The other 'normal' data is stored in separate columns.
-*	The declarative mapping specification (in the file .../res/raw/image_example.jdx) is simple, intuitive, non-intrusive, and succinct.  
+*	The declarative mapping specification (in the file .../res/raw/images_example.jdx) is simple, intuitive, non-intrusive, and succinct.  
 *	API calls for CRUD operations are simple and flexible.
 *	Although, in the example code, the images of the Person objects are obtained from the res\drawable folder through resource ids, there could be other sources of the pictures also (e.g. URLs or file names). 
 *	If the image data is persistently and reliably available from non-database sources (e.g. resource ids, file names, or URLs), one may just save the source location in the database instead of the actual image data. This project is intended to illustrate how JDXA ORM can be used to easily save binary data in a database.
